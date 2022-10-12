@@ -1,0 +1,29 @@
+:root {
+  /* primitive color */
+  --__COLOR__BLUE: #008da9;
+  --__COLOR_ORANGE: #bd6500;
+  --__COLOR_BEIGE: #f6f5da;
+  --__COLOR_BLACK: #19282b;
+
+  /* color */
+  --color-main: var(--__COLOR__BLUE);
+  --color-sub: var(--__COLOR_ORANGE);
+  --color-background: var(--__COLOR_BEIGE);
+  --color-text: var(--__COLOR_BLACK);
+  --color-error: var(--__COLOR_ORANGE);
+
+  /* space */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+  --spacing-7: 56px;
+  --spacing-8: 64px;
+
+  /* z-index */
+  --zIndex-base: 0;
+  --zIndex-front: 1;
+  --zIndex-back: -1;
+}
